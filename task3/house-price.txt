@@ -1,0 +1,54 @@
+House Price Prediction Using Machine Learning
+1. Task Objective
+
+The objective of this project is to develop a machine learning model that predicts house prices based on various property features such as area (square footage), number of bedrooms, bathrooms, floors, parking availability, and location. The model helps understand how different property characteristics influence house prices.
+
+2. Dataset Used
+
+This project uses a House Price Prediction Dataset containing information about different houses and their features.
+
+The dataset includes the following attributes:
+
+Area: Size of the house in square feet.
+Bedrooms: Number of bedrooms available in the house.
+Bathrooms: Number of bathrooms available.
+Floors: Number of floors in the property.
+Location: Area or region where the house is located.
+Parking: Number of parking spaces available.
+Price: The target variable representing the selling price of the house.
+
+Data preprocessing steps performed:
+
+Checked and handled missing values.
+Removed duplicate records.
+Converted categorical data (such as location) into numerical values using Label Encoding.
+Applied feature scaling using StandardScaler to improve model performance.
+3. Model Applied
+Linear Regression
+
+A Linear Regression model was used to predict house prices because it is suitable for regression problems where the target variable is continuous.
+
+The model development process included:
+
+Splitting the dataset into 80% training data and 20% testing data.
+Training the Linear Regression model using the training dataset.
+Making price predictions on the test dataset.
+
+The model was evaluated using the following metrics:
+
+Mean Absolute Error (MAE)
+Root Mean Squared Error (RMSE)
+4. Key Results and Findings
+The Linear Regression model successfully predicted house prices based on property features.
+The comparison between actual and predicted prices showed that the model captured the relationship between house characteristics and their prices.
+Features such as house area, number of bedrooms, location, and available facilities had a significant impact on price prediction.
+The evaluation metrics (MAE and RMSE) provided a measurement of the model’s prediction accuracy and error.
+Tools and Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+
+Project Name: House Price Prediction Using Machine Learning
