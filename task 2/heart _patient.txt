@@ -1,0 +1,52 @@
+Heart Disease Prediction Using Machine Learning
+1. Task Objective
+
+The objective of this project is to build a machine learning model that predicts whether a person is at risk of heart disease based on their health and medical data. The goal is to analyze patient information and assist in the early detection of heart disease using a binary classification approach.
+
+2. Dataset Used
+
+The project uses the Heart Disease UCI Dataset available on Kaggle. The dataset contains medical information of patients, including:
+
+Age
+Sex
+Chest pain type (cp)
+Resting blood pressure (trestbps)
+Cholesterol level (chol)
+Fasting blood sugar (fbs)
+Resting ECG results (restecg)
+Maximum heart rate achieved (thalach)
+Exercise-induced angina (exang)
+ST depression (oldpeak)
+Slope of ST segment (slope)
+Number of major blood vessels (ca)
+Thalassemia (thal)
+
+The target variable represents whether a patient has heart disease (1) or does not have heart disease (0).
+
+3. Models Applied
+
+A Logistic Regression model was applied to perform binary classification of heart disease prediction.
+
+The model development process included:
+
+Data cleaning and handling missing values.
+Removing duplicate records.
+Performing Exploratory Data Analysis (EDA) to understand patterns and relationships in the data.
+Splitting the dataset into training and testing sets (80% training, 20% testing).
+Applying feature scaling using StandardScaler.
+Training the Logistic Regression model and making predictions on test data.
+
+The model was evaluated using:
+
+Accuracy Score
+Confusion Matrix
+ROC Curve
+ROC-AUC Score
+4. Key Results and Findings
+The Logistic Regression model successfully classified patients based on their medical information.
+Model evaluation using accuracy, confusion matrix, and ROC-AUC showed effective prediction performance.
+Important factors influencing heart disease prediction included chest pain type, maximum heart rate, exercise-induced angina, ST depression, age, and cholesterol levels.
+The project demonstrates that machine learning can support early detection and risk assessment of heart disease.
+
+Project Name: Heart Disease Prediction Using Machine Learning
+Tools & Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
